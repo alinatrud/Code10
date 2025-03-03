@@ -1,4 +1,4 @@
-namespace CSProject;
+﻿namespace CSProject;
 using System;
 
 class CSProject
@@ -50,6 +50,5 @@ class CSProject
         myArray[2] = 30;
         myArray[3] = 40;
         myArray[4] = 50;
-
     }
 }
