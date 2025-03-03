@@ -1,0 +1,5 @@
+C:\Users\Игорь\Desktop\Алина\Новая папка (2)\Code10\obj\Debug\net9.0\Code10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Игорь\Desktop\Алина\Новая папка (2)\Code10\obj\Debug\net9.0\Code10.AssemblyInfoInputs.cache
+C:\Users\Игорь\Desktop\Алина\Новая папка (2)\Code10\obj\Debug\net9.0\Code10.AssemblyInfo.cs
+C:\Users\Игорь\Desktop\Алина\Новая папка (2)\Code10\obj\Debug\net9.0\Code10.csproj.CoreCompileInputs.cache
+C:\Users\Игорь\Desktop\Алина\Новая папка (2)\Code10\obj\Debug\net9.0\Code10.sourcelink.json

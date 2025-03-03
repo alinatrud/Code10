@@ -2,46 +2,63 @@
 Console.WriteLine("Hello, World!");
 Class Program
 {
- static void Main(string[] args)
-{
-// Практика А
-//Создайте программу на псевдоязыке, которая объявляет различные переменные разных типов данных (целочисленный, вещественный, строковый и логический) и выводит их значения на экран.
-int age =20;
-Console.WriteLine($"Age: {age}");
+  static void Main(string[] args)
+    { 
+     // Практика А
+
+     // Создайте программу, которая объявляет различные переменные разных типов данных
+     // (целочисленный, вещественный, строковый и логический) и выводит их значения на экран.
+
+     int age = 20;
+     Console.WriteLine($"Age: {age}");
+
+     double pi = 3.14;
+     Console.WriteLine($"Pi: {pi}");
+
+     string name = "John";
+     Console.WriteLine($"Name: {name}");
+
+     bool isMale = false;
+     Console.WriteLine($"IsMale: {isMale}");
 
 
-double pi = 3.14;
-Console.WriteLine($"Age: {pi}");
+     // Напишите программу, которая принимает два числа от пользователя и выполняет арифметические операции (сложение, вычитание, умножение, деление) над ними, выводя результат каждой операции на экран.
 
-string name = "John";
+     Console.WriteLine("Введите первое число:");
+     int number1 = Convert.ToInt32(Console.ReadLine());
+     Console.WriteLine("Введите второе число:");
+     int number2 = Convert.ToInt32(Console.ReadLine());
 
-bool isMale = false;
-Console.WriteLine($"IsMale: {isMale}");
-}
-}
-namespace ReadySolution;
+     int sum = number1 + number2;
+      Console.WriteLine($"Сумма: {sum}");
 
-class Program
-{
-static void Main(string[] args)
-{
-// Практика А
+     int diff = number1 - number2;
+     Console.WriteLine($"Разность: {diff}");
 
-// Создайте программу, которая объявляет различные переменные разных типов данных
-// (целочисленный, вещественный, строковый и логический) и выводит их значения на экран.
+     int mult = number1 * number2;
+     Console.WriteLine($"Умножение: {mult}");
 
-int age = 20;
-Console.WriteLine($"Age: {age}");
+     int div = number1 / number2;
+     Console.WriteLine($"Деление: {div}");
 
-double pi = 3.14;
-Console.WriteLine($"Pi: {pi}");
+     //Напишите программу, которая принимает строку от пользователя, содержащую число, и конвертирует его в целое число.
+     //Затем увеличьте это число на 5 и выведите результат.
 
-string name = "John";
-Console.WriteLine($"Name: {name}");
+     Console.WriteLine("Введите число:");
+     int number = Convert.ToInt32(Console.ReadLine());
+     int total = number + 5;
+     Console.WriteLine($"Total: {total}");
 
-bool isMale = false;
-Console.WriteLine($"IsMale: {isMale}");
+     //Практика B
 
-Console.ReadKey();
-}
+     //Попросите пользователя ввести свое имя, а затем выведите приветствие с использованием переменной для имени.
+
+     name = input("Пожалуйста, введите свое имя: ");
+     print("Привет, " + name + "!");
+
+     //Попросите пользователя ввести свой год рождения, а затем используйте переменную для вычисления и вывода его возраста.
+
+     birth_year = input("Пожалуйста, введите год вашего рождения: ");
+
+    }
 }
