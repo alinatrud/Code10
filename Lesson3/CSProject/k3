@@ -1,4 +1,4 @@
-﻿namespace CSProject;
+namespace CSProject;
 using System;
 
 class CSProject
